@@ -1,0 +1,124 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0; /* Windows background color */
+    color: #000; /* Windows text color */
+}
+
+#root {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0078d4; /* Windows blue color */
+    width: 100%;
+    height: 60px;
+}
+
+
+
+
+
+.menu-button {
+    height: 25px;
+    margin-left: 15px;
+}
+
+.nav-title {
+    margin-right: 20px;
+    color: #fff; /* White text color */
+}
+
+.menu {
+    display: none;
+    position: absolute;
+    background-color: #f0f0f0; /* Windows background color */
+    border: 1px solid #dcdcdc; /* Windows border color */
+    top: 50px;
+    left: 20px;
+    width: 200px;
+}
+
+.menu-options {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu-options li {
+    padding: 10px;
+    cursor: pointer;
+    border-bottom: 1px solid #dcdcdc; /* Windows border color */
+}
+
+.menu-options li:hover {
+    background-color: #dcdcdc;
+}
+
+.menu-options a {
+    text-decoration: none;
+    color: black;
+}
+
+
+.list-recycling {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.item {
+    display: grid;
+    grid-template-columns: 80px auto;
+    background-color: #fff; /* White background color */
+    border: 1px solid #dcdcdc; /* Windows border color */
+    border-radius: 8px;
+    margin: 5px;
+    padding: 10px;
+    text-align: center;
+    width: 80%;
+    max-width: 400px;
+    transition: background-color 0.2s;
+}
+
+.item:hover {
+    background-color: #edebeb;
+}
+
+.item-title {
+    padding: 5px;
+    text-align: right;
+    font-size: 0.8rem;
+    overflow: hidden;
+    font-weight: bold;
+}
+
+.item-buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.item-buttons button {
+    background-color: #0078d4;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    margin: 3px;
+    cursor: pointer;
+    width: 60px;
+    border-radius: 5px;
+}
+
+@media screen and (min-width: 900px){
+    /* לסדר את הפרטים בהתאם לגודל המסך */
+}
