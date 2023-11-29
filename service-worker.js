@@ -1,6 +1,6 @@
 const CACHE_NAME = 'v4';
 const assets = [
-    '/',
+    './',
     './index.html',
     './list.js',
     './style_To_Do_List.css',
